@@ -10,14 +10,18 @@ const colors = {
         300: "#FFFFFF",
         400: "#90E0EF",
         500: "#598392",
-        "highlight": "#E4FFAA",
-
+        highlight: "#E4FFAA",
     },
 };
 
 const theme = extendTheme({
     colors,
     components: {
+        Text: {
+            baseStyle: {
+                color: "palette.300",
+            },
+        },
         Progress: {
             baseStyle: {
                 filledTrack: {
