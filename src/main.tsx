@@ -24,6 +24,12 @@ const theme = extendTheme({
         },
     },
     components: {
+        Button: {
+            baseStyle: {
+              color: "palette.300",
+              bg: "palette.100",
+            },
+          },
         Progress: {
             baseStyle: {
                 filledTrack: {
