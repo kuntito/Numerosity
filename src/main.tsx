@@ -16,12 +16,14 @@ const colors = {
 
 const theme = extendTheme({
     colors,
-    components: {
-        Text: {
-            baseStyle: {
+    styles: {
+        global: {
+            body: {
                 color: "palette.300",
             },
         },
+    },
+    components: {
         Progress: {
             baseStyle: {
                 filledTrack: {
