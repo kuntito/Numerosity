@@ -1,0 +1,15 @@
+the overarching app state should know:
+the current screen
+on game play screen, a new game state should be generated
+on leaving game play screen, the score of the current game should be in app state
+ideally, you can only navigate from gameplay to game end screen
+any wrong assumptions would reveal itself during implementation
+when the game has ended, it should store the score of the last game
+
+the app state should have a config property
+which contains the dimensions for the board
+duration per question
+total questions
+
+
+
